@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>title</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+
+    <body>
+        <form action="#submitted" autocomplete="off" method="post">
+            <h1>Alto ERP</h1>
+
+            <input type="text" id="name" name="name" required>
+            <label for="name">Lietotājvārds</label>
+
+            <input type="password" id="pw" name="Password" required>
+            <label for="pw">Parole</label>
+
+            <button type="submit">Ienākt</button>
+        </form>
+
+        <section id="submitted" class="popup">
+            <div class="container">
+                <a href="#" class="close"></a>
+
+                <div class="title">
+                    Waiting on response...
+                </div>
+
+                <div class="desc">
+                    Not really, so you can just close this popup now...
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
